@@ -4,15 +4,14 @@ using namespace std;
 struct Node{
     int data;
     Node *next;
-    Node(int x)
-	{
+    Node(int x){
         data=x;
         next=NULL;
     }
 };
 
 struct MyStack{
-    Node *head;//creating empty linked list
+    Node *head;//crating empty linked list
     int sz;
     MyStack()
     {
@@ -20,8 +19,7 @@ struct MyStack{
         sz=0;
     }
     //insert the element at the beginning of linked list
-    void push(int x)
-	{
+    void push(int x){
       
         Node *temp=new Node(x);
         temp->next=head;
@@ -98,7 +96,7 @@ int main()
             if(checkPrime(n))
                 s.push(n);
             else
-                cout<<"Enter only prime number for insert"<<endl;
+                cout<<"Element is not prime no insert only prime number";
             break;
         case 2:
             //Poping the top element from the stack
@@ -121,4 +119,3 @@ int main()
   
     return 0; 
 }
-
