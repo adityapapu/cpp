@@ -1,3 +1,6 @@
+
+// Write a program to print sum of alternate nodes of a doubly linked list.
+
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -74,3 +77,4 @@ int main()
     cout<<"\nSum of alternate nodes of list is: "<<AlternateSum(head);
     return 0;
 }
+

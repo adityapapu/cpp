@@ -1,3 +1,5 @@
+
+
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -95,7 +97,7 @@ int main()
     {
     cout<<"\n################################\n";
     cout<<"Select your choice"<<endl;
-    cout<<"1.Push\n2.Pop\n3.Display\n 4.Display the Stack all element sum\n5.Exit"<<endl;
+    cout<<"1.Push\n2.Pop\n3.Display\n4.Display the Stack all element sum\n5.Exit"<<endl;
     cout<<"Enter the choice: ";
     cin>>ch;
     switch(ch)

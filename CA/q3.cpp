@@ -1,3 +1,4 @@
+//Write a program to implement stack as a linked list and then find the summation of alternate nodes.
 #include<bits/stdc++.h>
 using namespace std;
 struct Node {

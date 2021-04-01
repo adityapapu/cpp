@@ -1,3 +1,5 @@
+//Write a Program to Find Transpose of a Matrix using array.
+
 #include<bits/stdc++.h>
 using namespace std;
 const int n=4; 
